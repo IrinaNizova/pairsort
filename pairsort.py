@@ -25,7 +25,7 @@ def is_sorted(lst):
 if __name__ == "__main__":
     been_sorted = 0
     not_sorted = 0
-    for lst in permutations([1,2,3,4,5,6]):
+    for lst in permutations([1, 2, 3, 4, 5, 6]):
         if is_sorted(pairsort(list(lst))):
             been_sorted += 1
         else:
